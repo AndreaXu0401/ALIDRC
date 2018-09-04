@@ -14,6 +14,16 @@ Requirements
 Preprocess:
 ----
 	training a basic model: python train.py 
-  	active learning step: python active_learning_2.py
+	Run by excuting the command of train.py. The default parameters are used.
+  	
+	active learning step: python active_learning_2.py
+	
+Data sets:
+----
+	PDTB2.0
+	Sec 00~01 implicit: dev set
+	Sec 02~20 implicit: train set
+	Sec 21~22 implicit: test set
+	Sec 00~24 explicit: unlabeled set
   
  
